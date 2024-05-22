@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">meuapp</string>
+    <string name="latitude_text">Latitude: %1$f</string>
+    <string name="longitude_text">Longitude: %1$f</string>
+    <string name="adicionar_regiao">Adicionar Regiao</string>
+    <string name="gravar_no_bd">Gravar no BD</string>
+    <string name="longitude">Longitude:</string>
+    <string name="latitude">Latitude:</string>
+</resources>
