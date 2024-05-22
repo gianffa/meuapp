@@ -65,13 +65,13 @@ publishing {
 //    }
 //}
 
-repositories{
-    maven{
-        name = "GithubPackages"
-        url = uri("https://maven.pkg.github.com/gianffa/meuapp")
-        credentials{
-            username = "gianffa"
-            password = "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"
-        }
-    }
-}
+//repositories{
+//    maven{
+//        name = "GithubPackages"
+//        url = uri("https://maven.pkg.github.com/gianffa/meuapp")
+//        credentials{
+//            username = "gianffa"
+//            password = "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"
+//        }
+//    }
+//}
