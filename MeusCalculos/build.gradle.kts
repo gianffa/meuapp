@@ -32,9 +32,9 @@ publishing {
     publications {
         create<MavenPublication>("minhapubli") {
             groupId = "com.example"
-            artifactId = "MeusCalculos"
+            artifactId = "meuscalculos"
             version = "1.0"
-            artifact("build/outputs/aar/MeusCalculos-release.aar")
+            artifact("build/outputs/aar/meuscalculos-release.aar")
         }
     }
     repositories{
@@ -59,3 +59,5 @@ repositories {
     google()
     mavenCentral()
 }
+
+//att
