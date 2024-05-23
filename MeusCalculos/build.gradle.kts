@@ -29,12 +29,10 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
-
-//repositories {
-//    google()
-//    mavenCentral()
-//}
-
+repositories {
+    google()
+    mavenCentral()
+}
 dependencies {
 
     implementation(libs.appcompat)
@@ -43,7 +41,6 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }
-
 publishing {
     publications {
         create<MavenPublication>("minhapubli") {
@@ -54,24 +51,22 @@ publishing {
         }
     }
 }
-
+repositories{
+    maven{
+        name = "GithubPackages"
+        url = uri("https://maven.pkg.github.com/gianffa/meuapp")
+        credentials{
+            username = "gianffa"
+            password = "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"
+        }
+    }
+}
 //publishing {
 //    publications {
 //        register<MavenPublication>("release") {
 //            afterEvaluate{
 //                from(components["release"])
 //            }
-//        }
-//    }
-//}
-
-//repositories{
-//    maven{
-//        name = "GithubPackages"
-//        url = uri("https://maven.pkg.github.com/gianffa/meuapp")
-//        credentials{
-//            username = "gianffa"
-//            password = "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"
 //        }
 //    }
 //}
