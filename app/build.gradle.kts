@@ -49,11 +49,9 @@ android {
 //        ignoreList.add("keyToIgnore") // Ignore the key "keyToIgnore"
 //        ignoreList.add("sdk.*")       // Ignore all keys matching the regexp "sdk.*"
     }
-
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -67,7 +65,6 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-firestore")
     implementation(project(":MeusCalculos"))
-
 }
 
 repositories {
