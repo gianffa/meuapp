@@ -40,10 +40,10 @@ publishing {
     repositories{
         maven{
             name = "GithubPackages"
-            url = uri("https://maven.pkg.github.com/gianffa/meuapp")
+            url = uri("https://maven.pkg.github.com/gianffa/gianffa/meuappTentativaPackage")
             credentials{
                 username = "gianffa"
-                password = "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"
+                password = "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"
             }
         }
     }
